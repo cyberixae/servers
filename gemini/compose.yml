@@ -1,0 +1,10 @@
+services:
+  gemigit:
+    build: gemigit
+    ports:
+      - 1965:1965
+    networks:
+      geminet:
+
+networks:
+  geminet:
