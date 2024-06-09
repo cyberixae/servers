@@ -6,5 +6,12 @@ services:
     networks:
       geminet:
 
+  molly-brown:
+    build: molly-brown
+    ports:
+      - 1966:1965
+    networks:
+      geminet:
+
 networks:
   geminet:
