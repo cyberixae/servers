@@ -1,4 +1,11 @@
 services:
+  agate:
+    build: agate
+    ports:
+      - 1970:1965
+    networks:
+      geminet:
+
   gemigit:
     build: gemigit
     ports:
