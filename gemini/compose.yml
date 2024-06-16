@@ -6,6 +6,13 @@ services:
     networks:
       geminet:
 
+  jags-php:
+    build: jags-php
+    ports:
+      - 1969:1965
+    networks:
+      geminet:
+
   lupa-pona:
     build: lupa-pona
     ports:
