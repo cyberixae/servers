@@ -6,6 +6,13 @@ services:
     networks:
       geminet:
 
+  lupa-pona:
+    build: lupa-pona
+    ports:
+      - 1968:1965
+    networks:
+      geminet:
+
   molly-brown:
     build: molly-brown
     ports:
