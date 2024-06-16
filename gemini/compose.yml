@@ -13,5 +13,12 @@ services:
     networks:
       geminet:
 
+  orion:
+    build: orion
+    ports:
+      - 1967:1965
+    networks:
+      geminet:
+
 networks:
   geminet:
