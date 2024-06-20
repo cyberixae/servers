@@ -41,5 +41,12 @@ services:
     networks:
       geminet:
 
+  titan2:
+    build: titan2
+    ports:
+      - 1971:1965
+    networks:
+      geminet:
+
 networks:
   geminet:
