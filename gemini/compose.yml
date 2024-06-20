@@ -6,6 +6,13 @@ services:
     networks:
       geminet:
 
+  gegobi:
+    build: gegobi
+    ports:
+      - 1972:1965
+    networks:
+      geminet:
+
   gemigit:
     build: gemigit
     ports:
