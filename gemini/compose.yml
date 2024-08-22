@@ -48,6 +48,13 @@ services:
     networks:
       geminet:
 
+  stargazer:
+    build: stargazer
+    ports:
+      - 1973:1965
+    networks:
+      geminet:
+
   titan2:
     build: titan2
     ports:
